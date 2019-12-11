@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.constructionnavbar {
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 0;
+}
+
+.listItem1 {
+    display: inline;
+    color: black;
+    padding: 16.5px 25px 10px 25px;
+    transition-duration: 0.5s;
+    font-size: 1.65em;
+}
+.listItem1:hover {
+    background-color: #f26101
+}
+
+.link1 {
+    text-decoration: none;
+    color: black;
+    
+}
+.body {
+    background-image: url(images/home-design\ \(1\).jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+}
+.navbar {
+    position: sticky;
+    top: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: #304269a2;
+    opacity: 95%;
+}
+.logo {
+    opacity: 200%;
+    height: 200px;
+    width: 350px;
+    position: relative;
+}
